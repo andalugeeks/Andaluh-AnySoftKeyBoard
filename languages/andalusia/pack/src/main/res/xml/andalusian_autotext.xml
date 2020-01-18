@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, AnySoftKeyboard
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<words>
+    <!-- this dictionary is used for common typing mistakes -->
+    <!-- the attribute 'src' will be replace by the node's value: -->
+    <!-- rght will be converted to right -->
+
+    <word src="bajo">baho</word>
+    <word src="desde">dêdde</word>
+    <word src="hacia">açia</word>
+    <word src="hasta">âtta</word>
+    <word src="para">pa</word>
+    <word src="según">çegún</word>
+    <word src="sin">çin</word>
+    <word src="so">ço</word>
+    <word src="sobre">çobre</word>
+    <word src="tras">trâ</word>
+    <word src="versus">berçû</word>
+    <word src="vía">bía</word>
+
+    <word src="conmigo">cômmigo</word>
+    <word src="nosotros">noçotrô</word>
+    <word src="nos">nô</word>
+    <word src="nosotras">noçotrâ</word>
+    <word src="usted">ûtté</word>
+    <word src="vos">bô</word>
+    <word src="vosotros">boçotrô</word>
+    <word src="vosotras">boçotrâ</word>
+    <word src="os">ô</word>
+    <word src="ustedes">ûttedê</word>
+    <word src="se">çe</word>
+    <word src="sí">çí</word>
+    <word src="consigo">conçigo</word>
+    <word src="ella">eya</word>
+    <word src="ello">eyo</word>
+    <word src="ellos">eyô</word>
+    <word src="ellas">eyâ</word>
+    <word src="los">lô</word>
+    <word src="las">lâ</word>
+    <word src="les">lê</word>
+    <word src="se">çe</word>
+    <word src="sí">çí</word>
+    <word src="consigo">conçigo</word>
+
+    <word src="mis">mî</word>
+    <word src="tus">tû</word>
+    <word src="su">çu</word>
+    <word src="sus">çû</word>
+    <word src="nuestro">nuêttro</word>
+    <word src="nuestros">nuêttrô</word>
+    <word src="vuestro">buêttro</word>
+    <word src="vuestros">buêttrô</word>
+    <word src="nuestra">nuêttra</word>
+    <word src="nuestras">nuêttrâ</word>
+    <word src="vuestra">buêttra</word>
+    <word src="vuestras">buêttrâ</word>
+
+    <word src="míos">míô</word>
+    <word src="mías">míâ</word>
+    <word src="tuyos">tuyô</word>
+    <word src="tuyas">tuyâ</word>
+    <word src="suyo">çuyo</word>
+    <word src="suya">çuya</word>
+    <word src="suyos">çuyô</word>
+    <word src="suyas">çuyâ</word>
+    <word src="nuestro">nuêttro</word>
+    <word src="nuestra">nuêttra</word>
+    <word src="nuestros">nuêttrô</word>
+    <word src="nuestras">nuêttrâ</word>
+    <word src="vuestro">buêttro</word>
+    <word src="vuestra">buêttra</word>
+    <word src="vuestros">buêttrô</word>
+    <word src="vuestras">buêttrâ</word>
+    <word src="suyo">çuyo</word>
+    <word src="suya">çuya</word>
+    <word src="suyos">çuyô</word>
+    <word src="suyas">çuyâ</word>
+
+    <word src="quiénes">quiénê</word>
+    <word src="cuyos">cuyô</word>
+    <word src="cuyas">cuyâ</word>
+    <word src="cuantos">cuantô</word>
+    <word src="cuantas">cuantâ</word>
+    <word src="cuál">cuâh</word>
+    <word src="cual">cuâ</word>
+    <word src="cuáles">cuálê</word>
+    <word src="cuáles">cualê</word>
+    <word src="ahí">aí</word>
+    <word src="ahi">aí</word>
+    <word src="allí">ayí</word>
+    <word src="este">êtte</word>
+    <word src="ese">eçe</word>
+    <word src="aquel">aquêh</word>
+    <word src="estos">êttô</word>
+    <word src="esos">eçô</word>
+    <word src="aquellos">aqueyô</word>
+    <word src="esta">êtta</word>
+    <word src="esa">eça</word>
+    <word src="aquella">aqueya</word>
+    <word src="esto">êtto</word>
+    <word src="eso">eço</word>
+    <word src="aquello">aqueyo</word>
+
+    <word src="ayer">ayêh</word>
+    <word src="hoy">oy</word>
+    <word src="siempre">çiempre</word>
+    <word src="ahora">aora</word>
+    <word src="antes">antê</word>
+    <word src="ahí">aí</word>
+    <word src="allí">ayí</word>
+    <word src="allá">ayá</word>
+    <word src="cerca">çerca</word>
+    <word src="lejos">lehô</word>
+    <word src="abajo">abaho</word>
+    <word src="detrás">detrâh</word>
+    <word src="encima">ençima</word>
+    <word src="debajo">debaho</word>
+    <word src="donde">donde</word>
+    <word src="antes">antê</word>
+    <word src="así">açí</word>
+    <word src="mal">mâh</word>
+    <word src="cuidadosamente">cuidadoçamente</word>
+    <word src="mejor">mehôh</word>
+    <word src="peor">peôh</word>
+    <word src="mucho">muxo</word>
+    <word src="más">mâh</word>
+    <word src="menos">menô</word>
+    <word src="bastante">bâttante</word>
+    <word src="Obstante">Ôttante</word>
+    <word src="nada">ná</word>
+    <word src="sí">çí</word>
+    <word src="bueno">gueno</word>
+    <word src="obviamente">ôbbiamente</word>
+    <word src="nada">ná</word>
+    <word src="apenas">apenâ</word>
+    <word src="jamás">hamâh</word>
+    <word src="quizá">quiçá</word>
+    <word src="seguramente">çeguramente</word>
+    <word src="acaso">acaço</word>
+    <word src="demás">demâh</word>
+    <word src="inclusive">incluçibe</word>
+
+    <word src="solo">çolo</word>
+    <word src="sólo">çólo</word>
+    <word src="sola">çola</word>
+    <word src="solos">çolô</word>
+    <word src="solas">çolâ</word>
+    <word src="sino">çino</word>
+    <word src="así">açí</word>
+    <word src="igual">iguâh</word>
+    <word src="mismo">mîmmo</word>
+    <word src="pero">pero</word>
+    <word src="mas">mâ</word>
+    <word src="sino">çino</word>
+    <word src="mientras">mientrâ</word>
+    <word src="sea">çea</word>
+    <word src="dado">dao</word>
+    <word src="visto">bîtto</word>
+    <word src="puesto">puêtto</word>
+    <word src="pues">puê</word>
+    <word src="aunque">aunque</word>
+    <word src="salvo">çarbo</word>
+    <word src="cada">cá</word>
+</words>

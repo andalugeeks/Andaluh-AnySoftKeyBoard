@@ -5,6 +5,7 @@ include ':base'
 include ':languages'
 include ':languages:afrikaans_oss:pack', ':languages:afrikaans_oss:apk'
 include ':languages:armenian2:pack', ':languages:armenian2:apk'
+include ':languages:andalusia:pack', ':languages:andalusia:apk'
 include ':languages:brazilian:pack', ':languages:brazilian:apk'
 include ":languages:catalan:pack", ":languages:catalan:apk"
 include ":languages:czech:pack", ":languages:czech:apk"
