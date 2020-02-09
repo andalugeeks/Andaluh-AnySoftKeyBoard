@@ -44,7 +44,7 @@
         <Key android:codes="z" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="x" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="c" android:popupCharacters="" ask:hintLabel=""/>
-        <Key android:codes="v" android:popupCharacters="" ask:hintLabel=""/>
+        <Key android:codes="w" android:popupCharacters="v" ask:hintLabel="v"/>
         <Key android:codes="b" android:popupCharacters=""/>
         <Key android:codes="n" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="m" android:popupCharacters="" ask:hintLabel=""/>
