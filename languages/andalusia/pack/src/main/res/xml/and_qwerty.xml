@@ -37,13 +37,10 @@
         <Key android:codes="k" android:popupCharacters=")]}" ask:hintLabel=")"/>
         <Key android:codes="l" android:popupCharacters="-" ask:hintLabel="-"/>
         <Key android:codes="ñ" android:popupCharacters="" ask:hintLabel=""/>
-        <Key ask:isFunctional="true" android:codes="\u0027" android:popupCharacters="\u0022"
-             android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="-1" android:keyWidth="15%p"
-             android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/key_code_shift" android:keyWidth="15%p" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:popupCharacters="" />
         <Key android:codes="z" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="x" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="c" android:popupCharacters="" ask:hintLabel=""/>
@@ -51,6 +48,6 @@
         <Key android:codes="b" android:popupCharacters=""/>
         <Key android:codes="n" android:popupCharacters="" ask:hintLabel=""/>
         <Key android:codes="m" android:popupCharacters="" ask:hintLabel=""/>
-        <Key android:keyWidth="15%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+        <Key android:codes="@integer/key_code_delete" android:keyWidth="15%p" android:isRepeatable="true" android:keyEdgeFlags="right" android:popupCharacters="" />
     </Row>
 </Keyboard>
