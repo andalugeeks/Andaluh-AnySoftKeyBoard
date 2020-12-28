@@ -7,5 +7,9 @@
      "iconResId" : a reference to a drawable which can be used to show a flag in the notification bar.
      "layoutResId" : a reference to a keyboard layout XML. See res/xml/qwerty.xml
      -->
-	<Keyboard nameResId="@string/andalusian_keyboard_name" iconResId="@drawable/ic_status_andalusia" layoutResId="@xml/and_qwerty" id="0f7fe9b0-3966-11ea-aaef-0800200c9a66" index="1" defaultEnabled="true" defaultDictionaryLocale="and" description="Created with Andalugeeks"/>
+    <Keyboard defaultDictionaryLocale="and" defaultEnabled="true" description="Created by Andalugeeks" iconResId="@drawable/ic_status_andalusia" id="0f7fe9b0-3966-11ea-aaef-0800200c9a66" index="1" layoutResId="@xml/and_qwerty" nameResId="@string/andalusian_keyboard_epa" />
+    <Keyboard defaultDictionaryLocale="and_vaf" defaultEnabled="false" description="Created by Andalugeeks" iconResId="@drawable/ic_status_andalusia" id="89fa3dcc-c224-4f97-96b2-9839e2a91377" index="2" layoutResId="@xml/and_qwerty" nameResId="@string/andalusian_keyboard_vaf" />
+    <Keyboard defaultDictionaryLocale="and_z" defaultEnabled="false" description="Created by Andalugeeks" iconResId="@drawable/ic_status_andalusia" id="2f5fe604-4012-4731-84db-7da166ddacf1" index="3" layoutResId="@xml/and_qwerty" nameResId="@string/andalusian_keyboard_zezeo" />
+    <Keyboard defaultDictionaryLocale="and_s" defaultEnabled="false" description="Created by Andalugeeks" iconResId="@drawable/ic_status_andalusia" id="d35dc82b-65d6-44b5-886c-efed8dd80593" index="4" layoutResId="@xml/and_qwerty" nameResId="@string/andalusian_keyboard_seseo" />
+    <Keyboard defaultDictionaryLocale="and_h" defaultEnabled="false" description="Created by Andalugeeks" iconResId="@drawable/ic_status_andalusia" id="4aeb7a32-9692-4621-826f-cf5d79db7f1f" index="5" layoutResId="@xml/and_qwerty" nameResId="@string/andalusian_keyboard_heheo" />
 </Keyboards>

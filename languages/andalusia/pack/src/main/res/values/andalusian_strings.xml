@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="andalusian_keyboard_name">Andalûh EPA</string>
-    <string name="andalusian_dictionary_name">Andalûh EPA</string>
+    <string name="andalusian_dictionary_epa">Andalûh EPA</string>
+    <string name="andalusian_dictionary_heheo">Andalûh EPA Heheo</string>
+    <string name="andalusian_dictionary_seseo">Andalûh EPA Seseo</string>
+    <string name="andalusian_dictionary_vaf">Andalûh Çeçeo</string>
+    <string name="andalusian_dictionary_zezeo">Andalûh EPA Zezeo</string>
+    <string name="andalusian_keyboard_epa">Andalûh EPA</string>
+    <string name="andalusian_keyboard_heheo">Andalûh Heheo</string>
+    <string name="andalusian_keyboard_seseo">Andalûh Seseo</string>
+    <string name="andalusian_keyboard_vaf">Andalûh Çeçeo</string>
+    <string name="andalusian_keyboard_zezeo">Andalûh Zezeo</string>
+    <string name="app_name">Andalûh EPA para AnySoftKeyboard</string>
 </resources>

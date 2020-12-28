@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, AnySoftKeyboard
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<words>
+    <!-- this dictionary is used for common typing mistakes -->
+    <!-- the attribute 'src' will be replace by the node's value: -->
+    <!-- rght will be converted to right -->
+    <word src="eh">êh</word>
+    <word src="bajo">baho</word>
+    <word src="desde">dêdde</word>
+    <word src="hacia">asia</word>
+    <word src="hasta">âtta</word>
+    <word src="para">pa</word>
+    <word src="según">según</word>
+    <word src="sin">sin</word>
+    <word src="so">so</word>
+    <word src="sobre">sobre</word>
+    <word src="tras">trâ</word>
+    <word src="versus">bersû</word>
+    <word src="vía">bía</word>
+    <word src="conmigo">cômmigo</word>
+    <word src="nosotros">nosotrô</word>
+    <word src="nos">nô</word>
+    <word src="nosotras">nosotrâ</word>
+    <word src="usted">ûtté</word>
+    <word src="vos">bô</word>
+    <word src="vosotros">bosotrô</word>
+    <word src="vosotras">bosotrâ</word>
+    <word src="os">ô</word>
+    <word src="ustedes">ûttedê</word>
+    <word src="se">se</word>
+    <word src="sí">sí</word>
+    <word src="consigo">consigo</word>
+    <word src="ella">eya</word>
+    <word src="ello">eyo</word>
+    <word src="ellos">eyô</word>
+    <word src="ellas">eyâ</word>
+    <word src="los">lô</word>
+    <word src="las">lâ</word>
+    <word src="les">lê</word>
+    <word src="mis">mî</word>
+    <word src="tus">tû</word>
+    <word src="su">su</word>
+    <word src="sus">sû</word>
+    <word src="nuestro">nuêttro</word>
+    <word src="nuestros">nuêttrô</word>
+    <word src="vuestro">buêttro</word>
+    <word src="vuestros">buêttrô</word>
+    <word src="nuestra">nuêttra</word>
+    <word src="nuestras">nuêttrâ</word>
+    <word src="vuestra">buêttra</word>
+    <word src="vuestras">buêttrâ</word>
+    <word src="míos">míô</word>
+    <word src="mías">míâ</word>
+    <word src="tuyos">tuyô</word>
+    <word src="tuyas">tuyâ</word>
+    <word src="suyo">suyo</word>
+    <word src="suya">suya</word>
+    <word src="suyos">suyô</word>
+    <word src="suyas">suyâ</word>
+    <word src="quiénes">quiénê</word>
+    <word src="cuyos">cuyô</word>
+    <word src="cuyas">cuyâ</word>
+    <word src="cuantos">cuantô</word>
+    <word src="cuantas">cuantâ</word>
+    <word src="cuál">cuâh</word>
+    <word src="cual">cuâ</word>
+    <word src="cuáles">cuálê</word>
+    <word src="cuáles">cualê</word>
+    <word src="este">êtte</word>
+    <word src="ese">ese</word>
+    <word src="aquel">aquêh</word>
+    <word src="estos">êttô</word>
+    <word src="esos">esô</word>
+    <word src="aquellos">aqueyô</word>
+    <word src="esta">êtta</word>
+    <word src="esa">esa</word>
+    <word src="aquella">aqueya</word>
+    <word src="esto">êtto</word>
+    <word src="eso">eso</word>
+    <word src="aquello">aqueyo</word>
+    <word src="ayer">ayêh</word>
+    <word src="hoy">oy</word>
+    <word src="siempre">siempre</word>
+    <word src="ahora">aora</word>
+    <word src="antes">antê</word>
+    <word src="ahí">aí</word>
+    <word src="allí">ayí</word>
+    <word src="allá">ayá</word>
+    <word src="cerca">serca</word>
+    <word src="lejos">lehô</word>
+    <word src="abajo">abaho</word>
+    <word src="detrás">detrâh</word>
+    <word src="encima">ensima</word>
+    <word src="debajo">debaho</word>
+    <word src="donde">donde</word>
+    <word src="antes">antê</word>
+    <word src="así">así</word>
+    <word src="mal">mâh</word>
+    <word src="cuidadosamente">cuidadosamente</word>
+    <word src="mejor">mehôh</word>
+    <word src="peor">peôh</word>
+    <word src="mucho">muxo</word>
+    <word src="más">mâh</word>
+    <word src="menos">menô</word>
+    <word src="bastante">bâttante</word>
+    <word src="obstante">ôttante</word>
+    <word src="nada">ná</word>
+    <word src="sí">sí</word>
+    <word src="bueno">gueno</word>
+    <word src="obviamente">ôbbiamente</word>
+    <word src="nada">ná</word>
+    <word src="apenas">apenâ</word>
+    <word src="jamás">hamâh</word>
+    <word src="quizá">quisá</word>
+    <word src="seguramente">seguramente</word>
+    <word src="acaso">acaso</word>
+    <word src="demás">demâh</word>
+    <word src="inclusive">inclusibe</word>
+    <word src="solo">solo</word>
+    <word src="sólo">sólo</word>
+    <word src="sola">sola</word>
+    <word src="solos">solô</word>
+    <word src="solas">solâ</word>
+    <word src="sino">sino</word>
+    <word src="así">así</word>
+    <word src="igual">iguâh</word>
+    <word src="mismo">mîmmo</word>
+    <word src="pero">pero</word>
+    <word src="mas">mâ</word>
+    <word src="sino">sino</word>
+    <word src="mientras">mientrâ</word>
+    <word src="sea">sea</word>
+    <word src="dado">dao</word>
+    <word src="visto">bîtto</word>
+    <word src="puesto">puêtto</word>
+    <word src="pues">puê</word>
+    <word src="aunque">aunque</word>
+    <word src="salvo">sarbo</word>
+    <word src="cada">cá</word>
+</words>

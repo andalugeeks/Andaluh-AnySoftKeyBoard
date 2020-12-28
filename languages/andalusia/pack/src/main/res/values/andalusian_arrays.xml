@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="andalusia_epa_words_dict_array">
+        <item>@raw/andalusia_epa_words_1</item>
+        <item>@raw/andalusia_epa_words_2</item>
+        <item>@raw/andalusia_epa_words_3</item>
+    </array>
+    <array name="andalusia_heheo_words_dict_array">
+        <item>@raw/andalusia_heheo_words_1</item>
+        <item>@raw/andalusia_heheo_words_2</item>
+    </array>
+    <array name="andalusia_seseo_words_dict_array">
+        <item>@raw/andalusia_seseo_words_1</item>
+        <item>@raw/andalusia_seseo_words_2</item>
+    </array>
+    <array name="andalusia_vaf_words_dict_array">
+        <item>@raw/andalusia_vaf_words_1</item>
+        <item>@raw/andalusia_vaf_words_2</item>
+    </array>
+    <array name="andalusia_zezeo_words_dict_array">
+        <item>@raw/andalusia_zezeo_words_1</item>
+        <item>@raw/andalusia_zezeo_words_2</item>
+    </array>
+</resources>

@@ -7,7 +7,9 @@
      "dictionaryResourceId" : a reference to the raw resource of the words dictionary
      "autoTextResourceId" : a reference to a common typing mistakes XML.
      -->
-	<Dictionary nameResId="@string/andalusian_dictionary_name" locale="and" id="6ff50cc0-c2c3-4fe3-b7fa-59a7d5a05304" type="binary_resource"
-	dictionaryResourceId="@array/andalusia_words_dict_array" autoTextResourceId="@xml/andalusian_autotext"
-	description="Dictionary from AOSP"/>
+    <Dictionary autoTextResourceId="@xml/andalusian_epa_autotext" description="Dictionary from AOSP to Andaluh EPA" dictionaryResourceId="@array/andalusia_epa_words_dict_array" id="6ff50cc0-c2c3-4fe3-b7fa-59a7d5a05304" locale="and" nameResId="@string/andalusian_dictionary_epa" type="binary_resource" />
+    <Dictionary autoTextResourceId="@xml/andalusian_vaf_autotext" description="Dictionary from AOSP to Andaluh Çeçeo" dictionaryResourceId="@array/andalusia_vaf_words_dict_array" id="11b25bb3-a88d-443c-970e-49212b12b7b4" locale="and_vaf" nameResId="@string/andalusian_dictionary_vaf" type="binary_resource" />
+    <Dictionary autoTextResourceId="@xml/andalusian_zezeo_autotext" description="Dictionary from AOSP to Andaluh Zezeo" dictionaryResourceId="@array/andalusia_zezeo_words_dict_array" id="999c335d-dfb4-4d77-a770-20fda0c10d0e" locale="and_z" nameResId="@string/andalusian_dictionary_zezeo" type="binary_resource" />
+    <Dictionary autoTextResourceId="@xml/andalusian_seseo_autotext" description="Dictionary from AOSP to Andaluh Seseo" dictionaryResourceId="@array/andalusia_seseo_words_dict_array" id="6f2c7991-90d5-4c65-bf0e-8dba9e7a1329" locale="and_s" nameResId="@string/andalusian_dictionary_seseo" type="binary_resource" />
+    <Dictionary autoTextResourceId="@xml/andalusian_heheo_autotext" description="Dictionary from AOSP to Andaluh Heheo" dictionaryResourceId="@array/andalusia_heheo_words_dict_array" id="a29c9b3b-3af3-47ea-a306-4410c638b867" locale="and_h" nameResId="@string/andalusian_dictionary_heheo" type="binary_resource" />
 </Dictionaries>
