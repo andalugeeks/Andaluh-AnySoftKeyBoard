@@ -63,6 +63,8 @@ def generate_raw_files(and_dicts_fp):
     # Running in reverse, so the last oasp.combined to be copied in pack dictionary is the standard EPA
     for i in reversed(range(0, len(and_dicts_fp))):
         shutil.copy(and_dicts_fp[i], os.path.join(AND_DICT_DIR, 'aosp.combined'))
+        if not os.path.exists(AND_RAW_DIR + '_and'):
+            os.mkdir(AND_RAW_DIR + '_and')
 
         # Is subprocess call making the script linux-dependent?
         p = subprocess.call(["./gradlew", ":languages:andalusia:pack:makeDictionary"])
@@ -71,16 +73,16 @@ def generate_raw_files(and_dicts_fp):
                 number = word_file.split('.')[0].split('_')[-1]
                 # Copying generated files on temp 'raw' dir, as each gradlew command removes them
                 shutil.copy(os.path.join(AND_RAW_DIR, word_file),
-                    os.path.join(AND_PACK_DIR + '_and', AND + '_' + AND_VARS[i] + '_words_' + number + '.dict'), 
+                    os.path.join(AND_RAW_DIR + '_and', AND + '_' + AND_VARS[i] + '_words_' + number + '.dict'), 
                 )
         else:
             print("ERROR. ABORTING OPERATION.")
             return
 
-    # DO NOT EXECUTE THIS OR PROJECT WILL DIE
-    # Restoring the temp files on 'raw' dir
-    # shutil.rmtree(AND_PACK_DIR)
-    # shutil.move(AND_PACK_DIR + '_and', AND_PACK_DIR)
+    # Moving the temp files on 'raw' dir
+    shutil.rmtree(AND_RAW_DIR)
+    shutil.move(AND_RAW_DIR + '_and', AND_RAW_DIR)
+
     
 if __name__ == '__main__':
     os.chdir('..')
