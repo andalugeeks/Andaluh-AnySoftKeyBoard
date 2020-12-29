@@ -79,9 +79,10 @@ def generate_raw_files(and_dicts_fp):
             print("ERROR. ABORTING OPERATION.")
             return
 
-    # Moving the temp files on 'raw' dir
-    shutil.rmtree(AND_RAW_DIR)
-    shutil.move(AND_RAW_DIR + '_and', AND_RAW_DIR)
+    # Moving the temp files on 'raw' dir and remove 'raw_and'
+    for words_dict_file in os.listdir(AND_RAW_DIR + '_and'):
+        shutil.move(os.path.join(AND_RAW_DIR + '_and', words_dict_file), AND_RAW_DIR)
+    shutil.rmtree(AND_RAW_DIR + '_and')
 
     
 if __name__ == '__main__':
@@ -90,5 +91,5 @@ if __name__ == '__main__':
     spain_dict_fp = os.path.join(SP_PACK_DIR, 'dictionary','aosp.combined')
     and_dicts_fp = [os.path.join(AND_DICT_ADDONS, x + '.combined') for x in AND_VARS]
 
-    generate_dicts(os.path.join(spain_dict_fp), and_dicts_fp)
+    # generate_dicts(os.path.join(spain_dict_fp), and_dicts_fp)
     generate_raw_files(and_dicts_fp)
