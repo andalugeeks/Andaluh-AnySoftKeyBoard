@@ -9,7 +9,7 @@ autoVersioning {
     enabled = rootProject.hasProperty("withAutoVersioning")
     buildCounterEnvKey = "CIRCLE_BUILD_NUM"
     major = 4
-    minor = 2
+    minor = 3
     buildCounterOffset = 1000
     patchOffset = -1600
 }

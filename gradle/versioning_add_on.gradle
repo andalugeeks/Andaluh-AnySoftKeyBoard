@@ -4,6 +4,6 @@ if (path == rootProject.path) {
 }
 
 android.defaultConfig {
-    versionCode 2
+    versionCode 3
     versionName rootProject.autoVersioning.versionData.versionName
 }

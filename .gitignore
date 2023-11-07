@@ -16,3 +16,4 @@ bin/
 .generated_pack_version
 
 language-packs-apk/
+.vscode
