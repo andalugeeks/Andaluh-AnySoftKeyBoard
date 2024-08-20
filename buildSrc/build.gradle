@@ -6,8 +6,8 @@ repositories {
 }
 
 dependencies {
-    compile gradleApi()
-    compile 'org.jsoup:jsoup:1.9.1'
+    implementation gradleApi()
+    implementation 'org.jsoup:jsoup:1.9.1'
 }
 
 gradlePlugin {

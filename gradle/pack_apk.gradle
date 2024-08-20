@@ -33,7 +33,7 @@ android {
 
     applicationVariants.configureEach { variant ->
         variant.outputs.all {
-            outputFileName = "add-on-${project.path.replace(':', '-')}-${rootProject.autoVersioning.versionData.versionCode}.apk"
+            outputFileName = "add-on-${project.path.replace(':', '-')}-${'4.4.1'}.apk"
         }
         variant.assembleProvider.configure { assemble ->
             assemble.doLast {

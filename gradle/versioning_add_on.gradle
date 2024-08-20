@@ -4,6 +4,6 @@ if (path == rootProject.path) {
 }
 
 android.defaultConfig {
-    versionCode 3
-    versionName rootProject.autoVersioning.versionData.versionName
+    versionCode 4
+    versionName '4.4.1'
 }
